@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SEO Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>SEO Score Calculator</h1>
+
+    <input type="number" id="title" placeholder="Title Score (0-100)">
+    <input type="number" id="meta" placeholder="Meta Description (0-100)">
+    <input type="number" id="keyword" placeholder="Keyword Usage (0-100)">
+    <input type="number" id="backlinks" placeholder="Backlinks (0-100)">
+
+    <button onclick="calculateScore()">Calculate Score</button>
+
+    <h2 id="result" class="result-box"></h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
